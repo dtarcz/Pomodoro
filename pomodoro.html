@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="pomodoro.css">
+    <script type="text/javascript" src="pomo.js">
+
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="titre"><h1>Pomodoro</h1></div>
+      <div id = "pomo"><img src="pomo.jpg" width="200px" height="200px"/></div>
+
+    <div id="tache"><h4>En cours</h4></div>
+<input class="form-control" type="text" id="formGroupInputLarge">
+  <button type="button"  class="btn btn-primary" onclick="test()">effectuer</button>
+  <div id="timer">00:00</div>
+
+
+  <button type="button" class="btn btn-success" onclick="start()"> Pomodoro </button>
+  <button type="button"  class="btn btn-primary" onclick ="pause()">||</button>
+  <button type="button"   class="btn btn-primary" onclick ="play()">></button>
+
+  <button type="button"  class="btn btn-primary" onclick="reset()">stop</button>
+  <button type ="button"  class="btn btn-primary" onclick="lBreak()">Long break</button>
+  <button type ="button"  class="btn btn-primary" onclick ="sBreak()">Pause Courte</button>
+
+  <div id="t">
+  <ul id="terminer"></ul>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

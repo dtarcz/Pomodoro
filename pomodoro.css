@@ -1,0 +1,58 @@
+#container {
+  margin-top: 20px;
+  width: 500PX;
+  height: 800px;
+  margin:auto;
+  border : 1px solid black;
+  vertical-align: middle;
+
+}
+#titre{
+  margin-left: 10px;
+}
+#tache {
+  margin-left: 10px;
+  font-family: Arial;
+  height: 50px;
+}
+#taches{
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.form-control {
+margin-bottom:10px;
+
+}
+#timer{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 6em;
+}
+
+#pomo{
+  margin-left: 10px;
+  width:300px;
+margin: auto;
+}
+
+
+#t{
+  height:200px;
+  background-color:lightGrey;
+}
+
+li{
+  margin-top: 20px;
+  list-style:none;
+  font-family: Arial;
+}
+
+.selected{
+  text-decoration: line-through;
+  font-family: Arial;
+  color:red;
+}
+#terminer {
+  margin-top: 20px;
+}
