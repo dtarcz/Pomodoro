@@ -5,7 +5,7 @@ var taches;
 
 
 
-function test(){
+/*function test(){
   console.log('marche');
 taches = document.getElementById('formGroupInputLarge').value;
 finTaches = document.getElementById('terminer');
@@ -14,7 +14,7 @@ li.innerText=taches;
 finTaches.appendChild(li);
 
 }
-test();
+test();*/
 
 var time;
 var min;
@@ -23,6 +23,13 @@ var mls;
 var tab=[];
 
 function start(){
+  console.log('marche');
+  taches = document.getElementById('formGroupInputLarge').value;
+  finTaches = document.getElementById('terminer');
+  li = document.createElement('li');
+  li.innerText=taches;
+  finTaches.appendChild(li);
+
   min = 1;
   scs = 59;
   mls= 59;
