@@ -15,13 +15,15 @@ finTaches.appendChild(li);
 
 }
 test();*/
-
+var alarm = new Audio('0452.mp3');
 var time;
 var min;
 var scs;
 var mls;
 var tab=[];
 var currentTime = false;
+
+
 
 function start(){
   console.log('marche');
@@ -31,7 +33,7 @@ function start(){
   li.innerText=taches;
   finTaches.appendChild(li);
 
-  min = 1;
+  min = 0;
   scs = 59;
   mls= 59;
   tab = [];
@@ -53,6 +55,7 @@ function start(){
         li.classList.add("selected");
         document.getElementById('depart').style.display ="inline-block";
         console.log( li + " est terminer");
+        alarm.play();
       }
     }
   }, 1000);
