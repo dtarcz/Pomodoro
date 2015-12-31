@@ -58,8 +58,10 @@ function start(){
         alarm.play();
         $(document).ready(function() {
           console.log("test")
-          $("img").effect("shake");
+          $("img").effect("shake",{times:30},6000);
         });
+
+
       }
     }
   }, 1000);
@@ -72,6 +74,7 @@ function pause (){
   clearInterval(time);
   tab.push(min, scs);
   console.log(tab);
+  
 
 }
 
