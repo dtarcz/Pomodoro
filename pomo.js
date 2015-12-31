@@ -56,6 +56,10 @@ function start(){
         document.getElementById('depart').style.display ="inline-block";
         console.log( li + " est terminer");
         alarm.play();
+        $(document).ready(function() {
+          console.log("test")
+          $("img").effect("shake");
+        });
       }
     }
   }, 1000);
@@ -68,6 +72,7 @@ function pause (){
   clearInterval(time);
   tab.push(min, scs);
   console.log(tab);
+
 }
 
 
